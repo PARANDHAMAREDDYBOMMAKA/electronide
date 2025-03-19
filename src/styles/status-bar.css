@@ -1,0 +1,28 @@
+.status-bar {
+  display: flex;
+  height: 24px;
+  border-top: 1px solid rgba(128, 128, 128, 0.3);
+  padding: 0 8px;
+  align-items: center;
+}
+
+.status-bar.dark {
+  background-color: #007acc;
+  color: white;
+}
+
+.status-bar.light {
+  background-color: #007acc;
+  color: white;
+}
+
+.status-item {
+  margin-right: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.status-item:last-child {
+  margin-right: 0;
+  margin-left: auto;
+}
